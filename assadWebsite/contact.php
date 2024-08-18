@@ -11,7 +11,7 @@ $name = trim(htmlspecialchars($_POST['name']));
 	$email_body = "You have received a new message from the user $name.\n".
                             "Here is the message:\n $message";
 
-$to="ali@alkhiami.de";
+$to="moassad@mrweiss.de";
 mail($to,$email_subject,$email_body,$visitor_email);
 $text = "Thank you for your Message, i'll be reaching out to you soon";
 echo '<pre>';
