@@ -171,49 +171,7 @@
                         <p class="text-muted mb-5">Bereit für Ihr nächstes Reinigungsprojekt? Senden Sie uns eine Nachricht, und wir melden uns so schnell wie möglich bei Ihnen!</p>
                     </div>
                 </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
-                        <form id="contactForm" action="contact.php" method="POST" data-sb-form-api-token="API_TOKEN">
-
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Geben Sie Ihren Namen ein..." data-sb-validations="required" />
-                                <label for="name">Vollständiger Name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">Ein Name ist erforderlich.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">E-Mail-Adresse</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">Eine E-Mail-Adresse ist erforderlich.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Die E-Mail-Adresse ist nicht gültig.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Telefonnummer</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">Eine Telefonnummer ist erforderlich.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Geben Sie Ihre Nachricht hier ein..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Nachricht</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">Eine Nachricht ist erforderlich.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Nachricht erfolgreich versendet!</div>
-                                    Vielen Dank für Ihre Anfrage!
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Fehler beim Senden der Nachricht!</div></div>
-                            <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Absenden</button></div>
-                        </form>
-                    </div>
-                </div>
+                
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
                         <i class="bi-phone fs-2 mb-3 text-muted"></i>
