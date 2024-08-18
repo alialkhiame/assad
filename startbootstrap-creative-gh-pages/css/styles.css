@@ -11007,7 +11007,7 @@ header.masthead h1, header.masthead .h1 {
 @media (max-width: 992px) {
   #navbar-logo {
       height: 40px; /* Smaller logo for smaller screens */
-      content: url('/assets/logo.png'); /* Change the logo image when scrolled */
+      content: url('/assets/logoWW.png'); /* Change the logo image when scrolled */
   }
 }
 
