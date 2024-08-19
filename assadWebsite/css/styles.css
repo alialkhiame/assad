@@ -11000,7 +11000,7 @@ header.masthead h1, header.masthead .h1 {
 #navbar-logo {
   height: 50px; /* Adjust the size as needed */
   max-width: 100%;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.5s ease, opacity 0.4s ease;
 }
 
 /* For smaller screens */
@@ -11020,4 +11020,89 @@ header.masthead h1, header.masthead .h1 {
 /* Optional: Darken the logo in dark sections */
 .masthead #navbar-logo {
   filter: brightness(0) invert(1); /* Makes the logo white if it's originally dark */
+}
+
+
+.before-after-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.before img,
+.after img {
+  width: 100%;
+  transition: opacity 3s ease-in-out;
+}
+
+.before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 3s ease-in-out;
+}
+
+.after {
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
+
+.carousel-item.active .after {
+  opacity: 1;
+}
+
+.carousel-item.active .before {
+  opacity: 0;
+}
+
+.before-after-section {
+  position: relative;
+  padding: 100px 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/img/background.jpg') no-repeat center center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.before-after-section h2 {
+  color: #ffffff;
+}
+
+.divider-light {
+  border-color: #ffffff;
+}
+
+/* Optional: Overlay for the Background */
+.before-after-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1;
+}
+
+.before-after-section .container {
+  position: relative;
+  z-index: 2;
+}
+/*-----maps-----*/
+.map-responsive {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+  height: 0;
+}
+
+.map-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 140%;
+  height: 100%;
+  border: 0;
 }
