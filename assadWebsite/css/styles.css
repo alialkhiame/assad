@@ -11040,6 +11040,7 @@ header.masthead h1, header.masthead .h1 {
   left: 0;
   width: 100%;
   height: 100%;
+ 
   z-index: 1;
   opacity: 1;
   transition: opacity 3s ease-in-out;
@@ -11090,6 +11091,8 @@ header.masthead h1, header.masthead .h1 {
   position: relative;
   z-index: 2;
 }
+ 
+
 /*-----maps-----*/
 .map-responsive {
   position: relative;
