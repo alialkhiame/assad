@@ -10998,7 +10998,7 @@ header.masthead h1, header.masthead .h1 {
 ------------------logo---------
 */
 #navbar-logo {
-  height: 50px; /* Adjust the size as needed */
+  height: 90px; /* Adjust the size as needed */
   max-width: 100%;
   transition: transform 0.5s ease, opacity 0.4s ease;
 }
@@ -11006,7 +11006,7 @@ header.masthead h1, header.masthead .h1 {
 /* For smaller screens */
 @media (max-width: 992px) {
   #navbar-logo {
-      height: 40px; /* Smaller logo for smaller screens */
+      height: 90px; /* Smaller logo for smaller screens */
      
   }
 }
@@ -11014,7 +11014,7 @@ header.masthead h1, header.masthead .h1 {
 /* Hover effect */
 #navbar-logo:hover {
   transform: scale(1.1); /* Slightly increase the size on hover */
-  opacity: 0.8; /* Make it a bit transparent */
+  opacity: 1.8; /* Make it a bit transparent */
 }
 
 /* Optional: Darken the logo in dark sections */
