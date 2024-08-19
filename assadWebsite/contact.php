@@ -16,6 +16,8 @@ $name = $_POST['name'];
 $to="moassad@mrweiss.de";
 $headers = "From: $visitor_email\r\n";
 mail($to, $email_subject, $email_body, $headers);
+$to = "info@mrweiss.de";
+mail($to, $email_subject, $email_body, $headers);
 $text = "Thank you for your Message, i'll be reaching out to you soon";
 echo '<pre>';
 echo htmlspecialchars($text);
