@@ -3,9 +3,9 @@ if(!empty($_POST['website'])) die();
 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-$name = trim(htmlspecialchars($_POST['name']));
-  $visitor_email = trim(htmlspecialchars($_POST['email']));
-  $message = trim(htmlspecialchars($_POST['msg']));
+$name = $_POST['name'];
+  $visitor_email = $_POST['email'];
+  $message = $_POST['msg'];
 	$email_subject = "New Form submission";
 
 	$email_body = "You have received a new message from the user $name.\n".
