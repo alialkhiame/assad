@@ -11017,11 +11017,7 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1.8; /* Make it a bit transparent */
 }
 
-/* Optional: Darken the logo in dark sections */
-.masthead #navbar-logo {
-  filter: brightness(0) invert(1); /* Makes the logo white if it's originally dark */
-}
-
+ 
 
 .before-after-wrapper {
   position: relative;
